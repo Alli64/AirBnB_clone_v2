@@ -4,7 +4,7 @@
 import os
 from fabric.api import *
 
-env.hosts = ['34.203.75.147', '34.203.75.147']
+env.hosts = ['34.203.75.147', '100-clean_web_static.py']
 
 
 def do_clean(number=0):
